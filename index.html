@@ -22,15 +22,32 @@
             -webkit-font-smoothing: antialiased;
         }
 
+        .wrap {
+            text-align: center;
+        }
+
         .wordmark {
             font-size: clamp(2.5rem, 12vw, 6rem);
             font-weight: 600;
             letter-spacing: 0.25em;
             text-indent: 0.25em;
         }
+
+        .tagline {
+            margin-top: 1rem;
+            font-size: clamp(0.8rem, 2.5vw, 1.1rem);
+            font-weight: 400;
+            letter-spacing: 0.35em;
+            text-indent: 0.35em;
+            text-transform: uppercase;
+            color: #9b9b9b;
+        }
     </style>
 </head>
 <body>
-    <h1 class="wordmark">STAIPLE</h1>
+    <div class="wrap">
+        <h1 class="wordmark">STAIPLE</h1>
+        <p class="tagline">AI Technology</p>
+    </div>
 </body>
 </html>
